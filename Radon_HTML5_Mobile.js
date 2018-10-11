@@ -9933,6 +9933,16 @@ p.nominalBounds = new cjs.Rectangle(0,0,152.3,351.8);
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.backbtn_radon},{t:this.nextbtn_radon}]}).wait(1));
 
 	// Radon House.ai
+	this.DanRadon_Main = new lib.DanRadon_Main();
+	this.DanRadon_Main.name = "DanRadon_Main";
+	this.DanRadon_Main.parent = this;
+	this.DanRadon_Main.setTransform(514.3,510.6,1.698,1.698,0,0,0,71.5,175.8);
+
+	this.SammyRadon = new lib.SammyRadon();
+	this.SammyRadon.name = "SammyRadon";
+	this.SammyRadon.parent = this;
+	this.SammyRadon.setTransform(379.6,303.8,1.707,1.707,0,0,0,31.2,178);
+
 	this.TarryRadon = new lib.TarryRadon();
 	this.TarryRadon.name = "TarryRadon";
 	this.TarryRadon.parent = this;
@@ -9955,16 +9965,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,152.3,351.8);
 	this.radon_join.parent = this;
 	this.radon_join.setTransform(545.8,1044.2,1.115,1.115,0,0,0,60.9,60.9);
 	new cjs.ButtonHelper(this.radon_join, 0, 1, 2, false, new lib.foundation_join(), 3);
-
-	this.DanRadon_Main = new lib.DanRadon_Main();
-	this.DanRadon_Main.name = "DanRadon_Main";
-	this.DanRadon_Main.parent = this;
-	this.DanRadon_Main.setTransform(514.3,510.6,1.698,1.698,0,0,0,71.5,175.8);
-
-	this.SammyRadon = new lib.SammyRadon();
-	this.SammyRadon.name = "SammyRadon";
-	this.SammyRadon.parent = this;
-	this.SammyRadon.setTransform(379.6,303.8,1.707,1.707,0,0,0,31.2,178);
 
 	this.HeidiRadon = new lib.HeidiRadon();
 	this.HeidiRadon.name = "HeidiRadon";
@@ -10039,7 +10039,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,152.3,351.8);
 	this.shape_58.graphics.f("#97B6D3").s().p("AuoMCIAA4DIdRAAIAAYDg");
 	this.shape_58.setTransform(339,259,5.645,3.365);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_58},{t:this.shape_57},{t:this.shape_56},{t:this.shape_55},{t:this.shape_54},{t:this.shape_53},{t:this.shape_52},{t:this.shape_51},{t:this.shape_50},{t:this.shape_49},{t:this.instance_1},{t:this.shape_48},{t:this.shape_47},{t:this.shape_46},{t:this.shape_45},{t:this.shape_44},{t:this.shape_43},{t:this.HeidiRadon},{t:this.SammyRadon},{t:this.DanRadon_Main},{t:this.radon_join},{t:this.instance},{t:this.shape_42},{t:this.shape_41},{t:this.TarryRadon}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_58},{t:this.shape_57},{t:this.shape_56},{t:this.shape_55},{t:this.shape_54},{t:this.shape_53},{t:this.shape_52},{t:this.shape_51},{t:this.shape_50},{t:this.shape_49},{t:this.instance_1},{t:this.shape_48},{t:this.shape_47},{t:this.shape_46},{t:this.shape_45},{t:this.shape_44},{t:this.shape_43},{t:this.HeidiRadon},{t:this.radon_join},{t:this.instance},{t:this.shape_42},{t:this.shape_41},{t:this.TarryRadon},{t:this.SammyRadon},{t:this.DanRadon_Main}]}).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-199,218.8,2218.6,1564.4);
